@@ -38,6 +38,5 @@ The material is structured as follows.
   contains all Trixi.jl code used in
   Section 8 "Explicit SIMD optimizations".
 
-TODO:
 The results were obtained using Julia v1.7.0 for Trixi.jl
-and the GCC compiler version 9.3.0 for FLUXO.
+and the Intel Fortran Compiler 19.1.3 for FLUXO.
