@@ -1,0 +1,7 @@
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
+MuladdMacro = "46d2c3a1-f734-5fdb-9937-b9b9aeba4221"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+StrideArrays = "d1fa6d79-ef01-42a6-86c9-f7c551f8593b"
+Trixi = "a7f1ee26-1774-49b1-8366-f1abc58fbfcb"

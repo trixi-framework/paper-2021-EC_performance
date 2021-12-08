@@ -1,0 +1,4 @@
+    & \SI{ 9.5 \pm 0.2}{\ns}  % Cartesian
+    & \SI{35.4 \pm 0.3}{\ns}  % Cartesian
+    & \SI{19.8 \pm 0.2}{\ns}  % Cartesian
+    & \SI{23.2 \pm 0.3}{\ns}  % Cartesian

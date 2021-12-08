@@ -1,0 +1,1 @@
+    & \SI{24.6 \pm 0.3}{\ns}  % Rotated (precomputed)

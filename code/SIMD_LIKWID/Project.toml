@@ -1,0 +1,5 @@
+[deps]
+LIKWID = "bf22376a-e803-4184-b2ed-56326e3bff83"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+Trixi = "a7f1ee26-1774-49b1-8366-f1abc58fbfcb"

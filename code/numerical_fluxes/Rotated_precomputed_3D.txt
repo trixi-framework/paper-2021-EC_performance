@@ -1,0 +1,4 @@
+    & \SI{18.9 \pm 0.4}{\ns}  % Rotated (precomputed)
+    & \SI{46.4 \pm 0.3}{\ns}  % Rotated (precomputed)
+    & \SI{27.2 \pm 0.3}{\ns}  % Rotated (precomputed)
+    & \SI{34.9 \pm 0.3}{\ns}  % Rotated (precomputed)

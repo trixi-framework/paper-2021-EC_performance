@@ -1,0 +1,5 @@
+[deps]
+Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
+NaturalSort = "c020b1a1-e9b0-503a-9c33-f039bfc54a85"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+Trixi = "a7f1ee26-1774-49b1-8366-f1abc58fbfcb"

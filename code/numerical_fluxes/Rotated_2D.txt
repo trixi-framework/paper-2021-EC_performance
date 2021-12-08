@@ -1,0 +1,4 @@
+    & \SI{18.0 \pm 0.3}{\ns}  % Rotated
+    & \SI{42.0 \pm 0.3}{\ns}  % Rotated
+    & \SI{28.3 \pm 0.2}{\ns}  % Rotated
+    & \SI{31.6 \pm 0.3}{\ns}  % Rotated

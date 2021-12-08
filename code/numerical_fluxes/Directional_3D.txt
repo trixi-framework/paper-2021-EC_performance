@@ -1,0 +1,4 @@
+    & \SI{11.6 \pm 0.2}{\ns}  % Directional
+    & \SI{39.8 \pm 0.3}{\ns}  % Directional
+    & \SI{21.5 \pm 0.2}{\ns}  % Directional
+    & \SI{23.0 \pm 0.2}{\ns}  % Directional
