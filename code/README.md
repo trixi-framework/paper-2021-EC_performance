@@ -34,8 +34,8 @@ The material is structured as follows.
 - The directory [`inlining`](inlining)
   contains all Trixi.jl code used in
   Section 7.3 "Defining options at compile time".
-- The directory [`SIMD`](SIMD)
-  contains all Trixi.jl code used in
+- The directories [`SIMD`](SIMD) and [`SIMD_LIKWID`](SIMD_LIKWID)
+  contain all Trixi.jl code used in
   Section 8 "Explicit SIMD optimizations".
 
 The results were obtained using Julia v1.7.0 for Trixi.jl
