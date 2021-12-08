@@ -32,7 +32,7 @@ use the implementations provided here, please **also** cite this repository as
           Hindenlang, Florian and Gassner, Gregor J},
   year={2021},
   month={12},
-  howpublished={url{https://github.com/trixi-framework/paper-2021-EC_performance}},
+  howpublished={\url{https://github.com/trixi-framework/paper-2021-EC\_performance}},
   doi={TODO}
 }
 ```
