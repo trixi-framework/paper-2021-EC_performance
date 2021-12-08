@@ -1,0 +1,44 @@
+{
+    "license": "MIT",
+    "title": "Reproducibility repository for Efficient implementation of modern entropy-based discontinuous Galerkin methods for conservation laws",
+    "upload_type": "software",
+    "creators": [
+        {
+            "affiliation": "Applied Mathematics, University of Münster, Germany",
+            "name": "Ranocha, Hendrik",
+            "orcid": "0000-0002-3456-2277"
+        },
+        {
+            "affiliation": "High-Performance Computing Center Stuttgart, University of Stuttgart, Germany",
+            "name": "Schlottke-Lakemper, Michael",
+            "orcid": "0000-0002-3195-2536"
+        },
+        {
+            "affiliation": "Department of Computational and Applied Mathematics, Rice University, Houston, Texas, USA",
+            "name": "Chan, Jesse",
+            "orcid": "0000-0003-2077-3636"
+        },
+        {
+            "affiliation": "Department of Mathematics and Computer Science, University of Cologne, Germany",
+            "name": "Andrés M. Rueda-Ramírez",
+            "orcid": "0000-0001-6557-9162"
+        },
+        {
+            "affiliation": "Department of Mathematics; Applied Mathematics, Linköping University, Sweden",
+            "name": "Winters, Andrew R.",
+            "orcid": "0000-0002-5902-1522"
+        },
+        {
+            "affiliation": "Max Planck Institute for Plasma Physics, NMPP division, Garching, Germany",
+            "name": "Florian Hindenlang",
+            "orcid": "0000-0002-0439-249X"
+        },
+        {
+            "affiliation": "Department of Mathematics and Computer Science, University of Cologne, Germany",
+            "name": "Gassner, Gregor J.",
+            "orcid": "0000-0002-1752-1158"
+        }
+    ],
+    "access_right": "open"
+}
+
