@@ -2,24 +2,41 @@
 
 ## Requirements
 * Fortran compiler
-* HDF5 with fortran support
+* HDF5 with Fortran support
 * CMake (minimum required version is 3.5.1)
-* python (>=3) with numpy
+* Python (>=3) with numpy
 
 ## Instructions
 
 To run the performance tests, follow the instructions:
 
-* Move to this directory and Clone the fluxo repository:
+* Move to this directory and clone the FLUXO repository:
   ```
   cd 2021_EC_performance/code/ec_performance_fluxo
   git clone git@github.com:project-fluxo/fluxo.git
   ```
-* Move to the branch of fluxo were the performance improvements are implemented:
+* Move to the branch of FLUXO were the performance improvements are implemented:
   ```
   cd fluxo
   git checkout performance
   cd ..
+  ```
+* *Optional:* By default, FLUXO will compile with the Intel compiler using the
+  `-xHost` flag, i.e., it will try to generate optimal machine code for the CPU
+  used during compile time. If you want to specifically compile for a given
+  architecture or restrict to a specific instruction set, you can change this in
+  FLUXO's `CMakeLists.txt` file
+  by modifying the
+  [relevant lines](https://github.com/project-fluxo/fluxo/blob/01b8bfc62a566dde12769989c87630754deab7e1/CMakeLists.txt#L389-L439)
+  that set the optimization flags for the respectively used compiler.
+  For example, to make `ifort` only use `AVX2` instruction on an
+  `AVX512`-enabled CPU, change the line
+  ```cmake
+        SET(FLUXO_INSTRUCTION "-xHost")
+  ```
+  to
+  ```cmake
+        SET(FLUXO_INSTRUCTION "-xCore-AVX2")
   ```
 * *Optional:* For the tests, you can use the Cartesian mesh with 8² elements under `MeshGeneration/CartBoxPeriodic_008_008_008_mesh.h5`. If you prefer to generate the mesh, you can do it using [hopr](https://gitlab.com/project-fluxo/hopr):
   ```
