@@ -7,8 +7,8 @@ This repository contains information and code to reproduce the results presented
 article
 ```bibtex
 @online{ranocha2021efficient,
-  title={Efficient implementation of modern entropy-based discontinuous {G}alerkin
-         methods for conservation laws},
+  title={Efficient implementation of modern entropy stable and kinetic energy 
+         preserving discontinuous {G}alerkin methods for conservation laws},
   author={Ranocha, Hendrik and Schlottke-Lakemper, Michael and Chan, Jesse and
           Rueda-Ram\'{i}rez, Andr{\'e}s M and Winters, Andrew R and
           Hindenlang, Florian and Gassner, Gregor J},
@@ -25,8 +25,8 @@ use the implementations provided here, please **also** cite this repository as
 ```bibtex
 @misc{ranocha2021efficientRepro,
   title={Reproducibility repository for
-         {E}fficient implementation of modern entropy-based discontinuous {G}alerkin
-         methods for conservation laws},
+         {E}fficient implementation of modern entropy stable and kinetic energy
+         preserving discontinuous {G}alerkin methods for conservation laws},
   author={Ranocha, Hendrik and Schlottke-Lakemper, Michael and Chan, Jesse and
           Rueda-Ram\'{i}rez, Andr{\'e}s M and Winters, Andrew R and
           Hindenlang, Florian and Gassner, Gregor J},
