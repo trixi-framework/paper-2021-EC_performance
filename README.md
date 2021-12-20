@@ -1,4 +1,4 @@
-# Efficient implementation of modern entropy-based discontinuous Galerkin methods for conservation laws
+# Efficient implementation of modern entropy stable and kinetic energy preserving discontinuous Galerkin methods for conservation laws
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5792576.svg)](https://doi.org/10.5281/zenodo.5792576)
