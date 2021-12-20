@@ -40,18 +40,7 @@ use the implementations provided here, please **also** cite this repository as
 
 ## Abstract
 
-Many modern discontinuous Galerkin (DG) methods for conservation laws make use
-of summation by parts operators and flux differencing to achieve kinetic energy
-preservation or entropy stability. While these techniques increase the robustness
-of DG methods significantly, they are also computationally more demanding than
-standard weak form nodal DG methods. We present several implementation techniques
-to improve the efficiency of flux differencing DG methods. Focusing mostly on CPUs
-and DG methods for the compressible Euler equations,
-these techniques are generally useful also for GPU computing and other physical
-models including the compressible Navier-Stokes and magnetohydrodynamics equations.
-We present results using two open source codes, Trixi.jl written in Julia and
-FLUXO written in Fortran, to demonstrate that our proposed implementation
-techniques are applicable to different code bases and programming languages.
+Many modern discontinuous Galerkin (DG) methods for conservation laws make use of summation by parts operators and flux differencing to achieve kinetic energy preservation or entropy stability. While these techniques increase the robustness of DG methods significantly, they are also computationally more demanding than standard weak form nodal DG methods. We present several implementation techniques to improve the efficiency of flux differencing DG methods that use tensor product quadrilateral or hexahedral elements, in 2D or 3D respectively. Focus is mostly given to CPUs and DG methods for the compressible Euler equations, although these techniques are generally also useful for GPU computing and other physical systems including the compressible Navier-Stokes and magnetohydrodynamics equations. We present results using two open source codes, Trixi.jl written in Julia and FLUXO written in Fortran, to demonstrate that our proposed implementation techniques are applicable to different code bases and programming languages.
 
 
 ## Numerical experiments
