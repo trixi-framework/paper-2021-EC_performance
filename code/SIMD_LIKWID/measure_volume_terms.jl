@@ -90,7 +90,7 @@ function run_measurements(polydeg=3, n=5*10^3)
 
   Marker.init()
 
-  for numerical_flux in (flux_shima_etal, flux_ranocha)
+  for numerical_flux in (flux_shima_etal_turbo, flux_ranocha_turbo)
 
     solver = DGSEM(polydeg=polydeg, surface_flux=numerical_flux,
                    volume_integral=VolumeIntegralFluxDifferencing(numerical_flux))

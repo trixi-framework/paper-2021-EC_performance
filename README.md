@@ -7,7 +7,7 @@ This repository contains information and code to reproduce the results presented
 article
 ```bibtex
 @online{ranocha2021efficient,
-  title={Efficient implementation of modern entropy stable and kinetic energy 
+  title={Efficient implementation of modern entropy stable and kinetic energy
          preserving discontinuous {G}alerkin methods for conservation laws},
   author={Ranocha, Hendrik and Schlottke-Lakemper, Michael and Chan, Jesse and
           Rueda-Ram\'{i}rez, Andr{\'e}s M and Winters, Andrew R and
@@ -16,7 +16,7 @@ article
   month={12},
   eprint={2112.TODO},
   eprinttype={arXiv},
-  eprintclass={math.NA}
+  eprintclass={cs.MS}
 }
 ```
 

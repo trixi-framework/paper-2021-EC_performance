@@ -9,7 +9,7 @@ end
 ## gather data for volume terms implemented in Trixi.jl
 measured_string = read(`likwid-perfctr -C 0 -g FLOPS_DP -m $(Base.julia_cmd()) --check-bounds=no --threads=1 $(joinpath(@__DIR__, "measure_volume_terms.jl"))`, String)
 
-for numerical_flux in ["flux_shima_etal", "flux_ranocha"]
+for numerical_flux in ["flux_shima_etal_turbo", "flux_ranocha_turbo"]
   offset = findfirst("Region TreeMesh-$numerical_flux", measured_string) |> last
   m = match(r"(Vectorization ratio\s+\|\s+)(\d+\.\d+)", measured_string, offset)
   ratio_TreeMesh = parse(Float64, m.captures[2])
