@@ -33,7 +33,7 @@ use the implementations provided here, please **also** cite this repository as
   year={2021},
   month={12},
   howpublished={\url{https://github.com/trixi-framework/paper-2021-EC\_performance}},
-  doi={TODO}
+  doi={10.5281/zenodo.5792576}
 }
 ```
 
