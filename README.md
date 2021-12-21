@@ -14,8 +14,8 @@ article
           Hindenlang, Florian and Gassner, Gregor J},
   year={2021},
   month={12},
-  eprint={2112.TODO},
-  eprinttype={arXiv},
+  eprint={2112.10517},
+  eprinttype={arxiv},
   eprintclass={cs.MS}
 }
 ```
