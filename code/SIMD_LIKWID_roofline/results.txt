@@ -1,0 +1,74 @@
+max_bandwidth = 21.95787109375
+max_flops = 73.70904296875
+
+["Experiment 01"]
+flops = 8.512998787030106
+intensity = 2.3471140158878363
+mesh = "TreeMesh"
+numerical_flux = "flux_shima_etal"
+
+["Experiment 02"]
+flops = 8.622553567902145
+intensity = 1.9135305573588055
+mesh = "StructuredMesh"
+numerical_flux = "flux_shima_etal"
+
+["Experiment 03"]
+flops = 8.486387884488854
+intensity = 1.8967146507822699
+mesh = "P4estMesh"
+numerical_flux = "flux_shima_etal"
+
+["Experiment 04"]
+flops = 21.289385660049444
+intensity = 1.943287572537641
+mesh = "TreeMesh"
+numerical_flux = "flux_shima_etal_turbo"
+
+["Experiment 05"]
+flops = 18.46107355065368
+intensity = 1.6191706769274423
+mesh = "StructuredMesh"
+numerical_flux = "flux_shima_etal_turbo"
+
+["Experiment 06"]
+flops = 18.401884419017208
+intensity = 1.6386543614291538
+mesh = "P4estMesh"
+numerical_flux = "flux_shima_etal_turbo"
+
+["Experiment 07"]
+flops = 6.480704688759926
+intensity = 3.518739853744992
+mesh = "TreeMesh"
+numerical_flux = "flux_ranocha"
+
+["Experiment 08"]
+flops = 6.083740645433487
+intensity = 2.659019038251165
+mesh = "StructuredMesh"
+numerical_flux = "flux_ranocha"
+
+["Experiment 09"]
+flops = 6.062575093179439
+intensity = 2.65506503400861
+mesh = "P4estMesh"
+numerical_flux = "flux_ranocha"
+
+["Experiment 10"]
+flops = 18.452692983673145
+intensity = 3.4471617184253858
+mesh = "TreeMesh"
+numerical_flux = "flux_ranocha_turbo"
+
+["Experiment 11"]
+flops = 15.419931350917922
+intensity = 2.503611048970959
+mesh = "StructuredMesh"
+numerical_flux = "flux_ranocha_turbo"
+
+["Experiment 12"]
+flops = 15.558971175082915
+intensity = 2.623427940076148
+mesh = "P4estMesh"
+numerical_flux = "flux_ranocha_turbo"
