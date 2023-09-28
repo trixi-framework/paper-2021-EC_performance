@@ -6,14 +6,16 @@
 This repository contains information and code to reproduce the results presented in the
 article
 ```bibtex
-@online{ranocha2021efficient,
+@article{ranocha2023efficient,
   title={Efficient implementation of modern entropy stable and kinetic energy
          preserving discontinuous {G}alerkin methods for conservation laws},
   author={Ranocha, Hendrik and Schlottke-Lakemper, Michael and Chan, Jesse and
           Rueda-Ram\'{i}rez, Andr{\'e}s M and Winters, Andrew R and
           Hindenlang, Florian and Gassner, Gregor J},
-  year={2021},
-  month={12},
+  journal={ACM Transactions on Mathematical Software},
+  year={2023},
+  month={09},
+  doi={10.1145/3625559},
   eprint={2112.10517},
   eprinttype={arxiv},
   eprintclass={cs.MS}
@@ -58,7 +60,7 @@ The numerical experiments were carried out using Julia v1.7.0.
 
 ## Authors
 
-- [Hendrik Ranocha](https://ranocha.de) (University of Münster, Germany)
+- [Hendrik Ranocha](https://ranocha.de) (University of Hamburg, Germany)
 - [Michael Schlottke-Lakemper](https://lakemper.eu) (University of Stuttgart, Germany)
 - [Jesse Chan](https://jlchan.github.io) (Rice University, USA)
 - [Andrés M. Rueda-Ramírez](https://www.mi.uni-koeln.de/NumSim/dr-andres-rueda-ramirez) (University of Cologne, Germany)
